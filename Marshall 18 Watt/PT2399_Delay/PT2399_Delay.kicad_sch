@@ -1482,7 +1482,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 95.25 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 015d8746-afa2-4914-a3e4-143c7bab7541)
-    (property "Reference" "C8" (at 99.06 94.361 0)
+    (property "Reference" "C13" (at 99.06 94.361 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 99.06 96.901 0)
@@ -1499,7 +1499,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C8") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1508,7 +1508,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 64.77 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05733152-9e68-4da5-92c0-547efe242ad0)
-    (property "Reference" "C3" (at 68.58 46.101 0)
+    (property "Reference" "C6" (at 68.58 46.101 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 68.58 48.641 0)
@@ -1525,7 +1525,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1560,7 +1560,7 @@
   (symbol (lib_id "Device:R") (at 68.58 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0afda6ad-b34d-4e14-b674-4a7942dcf5cc)
-    (property "Reference" "R6" (at 68.58 92.71 90)
+    (property "Reference" "R7" (at 68.58 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "360K" (at 68.58 95.25 90)
@@ -1577,7 +1577,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1592,7 +1592,7 @@
     (property "Value" "TL072" (at 68.58 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 68.58 86.36 0)
+    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 68.58 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 68.58 86.36 0)
@@ -1618,7 +1618,7 @@
   (symbol (lib_id "power:GND") (at 129.54 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ac9677f-e0a0-43ae-8ccb-884c4722aba9)
-    (property "Reference" "#PWR014" (at 129.54 177.8 0)
+    (property "Reference" "#PWR016" (at 129.54 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 176.53 0)
@@ -1634,7 +1634,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1643,7 +1643,7 @@
   (symbol (lib_id "Device:R") (at 36.83 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ede1021-7b5b-49cc-8569-e55a0407216a)
-    (property "Reference" "R4" (at 39.37 92.71 0)
+    (property "Reference" "R2" (at 39.37 92.71 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1M" (at 39.37 95.25 0)
@@ -1660,7 +1660,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 121.92 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fcbb75f-55d8-41d7-9ed7-eb1b16ef8829)
-    (property "Reference" "C12" (at 121.031 139.7 90)
+    (property "Reference" "C18" (at 121.031 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 121.031 142.24 90)
@@ -1686,7 +1686,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C12") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1695,7 +1695,7 @@
   (symbol (lib_id "power:GNDA") (at 160.02 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26342868-7d10-4c27-bf96-8ccb166eac03)
-    (property "Reference" "#PWR019" (at 160.02 95.25 0)
+    (property "Reference" "#PWR018" (at 160.02 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 160.02 93.98 0)
@@ -1711,7 +1711,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1720,7 +1720,7 @@
   (symbol (lib_id "power:GND") (at 54.61 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27db0543-e821-4844-b25d-fda8c59215b6)
-    (property "Reference" "#PWR06" (at 54.61 60.96 0)
+    (property "Reference" "#PWR07" (at 54.61 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 59.69 0)
@@ -1736,7 +1736,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1745,7 +1745,7 @@
   (symbol (lib_id "Device:C") (at 86.36 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29b98d16-1119-494b-9b26-deaf45a04419)
-    (property "Reference" "C11" (at 90.17 151.13 0)
+    (property "Reference" "C12" (at 90.17 151.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2n2F" (at 90.17 153.67 0)
@@ -1762,7 +1762,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1824,7 +1824,7 @@
   (symbol (lib_id "Device:C") (at 116.84 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fe0fb73-bba0-4d52-bef6-1294c7a41b74)
-    (property "Reference" "C18" (at 116.84 110.49 90)
+    (property "Reference" "C16" (at 116.84 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22nF" (at 116.84 113.03 90)
@@ -1841,7 +1841,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C18") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1850,7 +1850,7 @@
   (symbol (lib_id "power:GND") (at 74.93 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33f46270-feb9-4870-a549-381fd15f898b)
-    (property "Reference" "#PWR02" (at 74.93 54.61 0)
+    (property "Reference" "#PWR09" (at 74.93 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 53.34 0)
@@ -1866,7 +1866,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1875,7 +1875,7 @@
   (symbol (lib_id "Device:C") (at 74.93 125.73 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bb225b7-6fdd-4a00-ab89-4a6d515af8fd)
-    (property "Reference" "C9" (at 78.74 124.46 0)
+    (property "Reference" "C8" (at 78.74 124.46 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4n7F" (at 78.74 127 0)
@@ -1892,7 +1892,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1901,7 +1901,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 146.05 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f9e944d-3c53-4ec9-b413-e59bd9a6df8a)
-    (property "Reference" "C7" (at 145.161 76.2 90)
+    (property "Reference" "C22" (at 145.161 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 145.161 78.74 90)
@@ -1918,7 +1918,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C7") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1927,7 +1927,7 @@
   (symbol (lib_id "Device:C") (at 129.54 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fa5aedd-ddc1-4e7b-b2c3-43e96f39bf2e)
-    (property "Reference" "C17" (at 133.35 163.83 0)
+    (property "Reference" "C20" (at 133.35 163.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47nF" (at 133.35 166.37 0)
@@ -1944,7 +1944,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C17") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1953,7 +1953,7 @@
   (symbol (lib_id "power:GNDA") (at 27.94 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4016d5a2-d4bd-40f4-8c9c-39ef18a0a48d)
-    (property "Reference" "#PWR010" (at 27.94 107.95 0)
+    (property "Reference" "#PWR03" (at 27.94 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 27.94 106.68 0)
@@ -1969,7 +1969,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1984,7 +1984,7 @@
     (property "Value" "TL072" (at 129.54 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 129.54 83.82 0)
+    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 129.54 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 129.54 83.82 0)
@@ -2010,7 +2010,7 @@
   (symbol (lib_id "power:GND") (at 92.71 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40b6e7c6-14f6-4d6e-8cc1-18fdca9302f1)
-    (property "Reference" "#PWR01" (at 92.71 54.61 0)
+    (property "Reference" "#PWR012" (at 92.71 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 53.34 0)
@@ -2026,7 +2026,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2035,7 +2035,7 @@
   (symbol (lib_id "power:GND") (at 36.83 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40e65442-0222-403a-a583-bb3972dc0ace)
-    (property "Reference" "#PWR09" (at 36.83 107.95 0)
+    (property "Reference" "#PWR05" (at 36.83 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 106.68 0)
@@ -2051,7 +2051,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2060,7 +2060,7 @@
   (symbol (lib_id "power:GNDA") (at 22.86 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41d6abe0-bcbe-445d-ab2a-b11ae4ccdcf3)
-    (property "Reference" "#PWR017" (at 22.86 182.88 0)
+    (property "Reference" "#PWR01" (at 22.86 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 22.86 181.61 0)
@@ -2076,7 +2076,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2085,7 +2085,7 @@
   (symbol (lib_id "power:GND") (at 44.45 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 424b757e-e640-4775-ae35-a29a818eb88a)
-    (property "Reference" "#PWR07" (at 44.45 54.61 0)
+    (property "Reference" "#PWR06" (at 44.45 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 53.34 0)
@@ -2101,7 +2101,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2110,7 +2110,7 @@
   (symbol (lib_id "Device:C") (at 82.55 161.29 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4399bf67-f7e3-45b5-8fb8-07b8295da015)
-    (property "Reference" "C14" (at 82.55 153.67 90)
+    (property "Reference" "C9" (at 82.55 153.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 82.55 156.21 90)
@@ -2127,7 +2127,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C14") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2136,7 +2136,7 @@
   (symbol (lib_id "Device:R") (at 54.61 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44cc1c5b-96ec-4f47-816e-3b7ad2040c3e)
-    (property "Reference" "R3" (at 57.15 46.99 0)
+    (property "Reference" "R5" (at 57.15 46.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 57.15 49.53 0)
@@ -2153,7 +2153,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2162,7 +2162,7 @@
   (symbol (lib_id "Device:R") (at 54.61 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 495b7832-6fe7-4dac-b1d0-8bdad4684893)
-    (property "Reference" "R2" (at 57.15 34.29 0)
+    (property "Reference" "R4" (at 57.15 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 57.15 36.83 0)
@@ -2179,7 +2179,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2188,7 +2188,7 @@
   (symbol (lib_id "Device:R") (at 104.14 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c6d9a1d-d47e-4784-9c34-efa017dcd729)
-    (property "Reference" "R15" (at 106.68 149.86 0)
+    (property "Reference" "R13" (at 106.68 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20K" (at 106.68 152.4 0)
@@ -2205,7 +2205,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R15") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2214,7 +2214,7 @@
   (symbol (lib_id "Device:R") (at 156.21 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f5eda04-d8f8-49ca-a38c-10b24dfdf3d9)
-    (property "Reference" "R9" (at 156.21 77.47 90)
+    (property "Reference" "R20" (at 156.21 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 156.21 80.01 90)
@@ -2231,7 +2231,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R9") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -2240,7 +2240,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 154.94 113.03 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5206c06b-dbfe-49b7-bae1-f69a18807e4e)
-    (property "Reference" "MIX" (at 157.48 111.76 0)
+    (property "Reference" "MIX1" (at 157.48 111.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "50K" (at 157.48 114.3 0)
@@ -2258,7 +2258,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "MIX") (unit 1)
+          (reference "MIX1") (unit 1)
         )
       )
     )
@@ -2267,7 +2267,7 @@
   (symbol (lib_id "Device:C") (at 29.21 173.99 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55b5e810-8854-40a1-a702-d9774fc65243)
-    (property "Reference" "C21" (at 29.21 166.37 90)
+    (property "Reference" "C2" (at 29.21 166.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 29.21 168.91 90)
@@ -2284,7 +2284,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C21") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2293,7 +2293,7 @@
   (symbol (lib_id "Device:C") (at 128.27 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6584e658-280d-4b30-94b0-94605f74f75d)
-    (property "Reference" "C6" (at 128.27 100.33 90)
+    (property "Reference" "C19" (at 128.27 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100pF" (at 128.27 102.87 90)
@@ -2310,7 +2310,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C6") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -2319,7 +2319,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 102.87 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68702faf-ae4a-4450-aab0-7bfede6b4296)
-    (property "Reference" "C1" (at 106.68 35.941 0)
+    (property "Reference" "C14" (at 106.68 35.941 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 106.68 38.481 0)
@@ -2336,7 +2336,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C1") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2345,7 +2345,7 @@
   (symbol (lib_id "Device:R") (at 54.61 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cda87af-5dd4-420a-85f4-bf0f6c81b415)
-    (property "Reference" "R5" (at 54.61 82.55 90)
+    (property "Reference" "R6" (at 54.61 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "180K" (at 54.61 85.09 90)
@@ -2362,7 +2362,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2371,7 +2371,7 @@
   (symbol (lib_id "Device:C") (at 86.36 140.97 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f9556cf-e83b-4aaf-aed3-70321022b8b6)
-    (property "Reference" "C10" (at 90.17 139.7 0)
+    (property "Reference" "C11" (at 90.17 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2n2F" (at 90.17 142.24 0)
@@ -2388,7 +2388,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2449,7 +2449,7 @@
   (symbol (lib_id "Device:R") (at 105.41 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76e6d5fa-c660-4cc9-ba21-a7d11ed5563e)
-    (property "Reference" "R12" (at 105.41 111.76 90)
+    (property "Reference" "R14" (at 105.41 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5K1" (at 105.41 114.3 90)
@@ -2466,7 +2466,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R12") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2515,7 +2515,7 @@
   (symbol (lib_id "Device:R") (at 95.25 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 899e92e1-0d03-44d8-83f2-bd7b03e14ed0)
-    (property "Reference" "R10" (at 97.79 106.68 0)
+    (property "Reference" "R9" (at 97.79 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 97.79 109.22 0)
@@ -2532,7 +2532,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2541,7 +2541,7 @@
   (symbol (lib_id "power:GND") (at 29.21 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e927b85-16f4-4ec4-bb38-dd683add1c84)
-    (property "Reference" "#PWR05" (at 29.21 54.61 0)
+    (property "Reference" "#PWR04" (at 29.21 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 53.34 0)
@@ -2557,7 +2557,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2566,7 +2566,7 @@
   (symbol (lib_id "Device:R") (at 95.25 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ed6dfb9-7be9-4078-ae49-3e8aaada4d06)
-    (property "Reference" "R13" (at 97.79 124.46 0)
+    (property "Reference" "R10" (at 97.79 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 97.79 127 0)
@@ -2583,7 +2583,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R13") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2618,7 +2618,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 44.45 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91a135de-640d-4dc6-8117-c43229630e30)
-    (property "Reference" "C2" (at 48.26 37.211 0)
+    (property "Reference" "C5" (at 48.26 37.211 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 48.26 39.751 0)
@@ -2635,7 +2635,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2644,7 +2644,7 @@
   (symbol (lib_id "Device:R") (at 128.27 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92b7c209-bc03-4b84-81af-ea7b2f90a478)
-    (property "Reference" "R8" (at 128.27 91.44 90)
+    (property "Reference" "R17" (at 128.27 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12K" (at 128.27 93.98 90)
@@ -2661,7 +2661,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R8") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2670,7 +2670,7 @@
   (symbol (lib_id "power:GND") (at 24.13 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92be108b-932d-4851-9b00-72d63d67afb7)
-    (property "Reference" "#PWR018" (at 24.13 163.83 0)
+    (property "Reference" "#PWR02" (at 24.13 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 162.56 0)
@@ -2686,7 +2686,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2695,7 +2695,7 @@
   (symbol (lib_id "Device:C") (at 82.55 168.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94682791-f656-4ba0-90f2-5d3f6ad8e2ee)
-    (property "Reference" "C16" (at 82.55 161.29 90)
+    (property "Reference" "C10" (at 82.55 161.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 82.55 163.83 90)
@@ -2712,7 +2712,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C16") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2721,7 +2721,7 @@
   (symbol (lib_id "power:GND") (at 74.93 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95ce807e-757d-4fde-bf6c-5159fd29e210)
-    (property "Reference" "#PWR011" (at 74.93 137.16 0)
+    (property "Reference" "#PWR010" (at 74.93 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 135.89 0)
@@ -2737,7 +2737,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2746,7 +2746,7 @@
   (symbol (lib_id "Device:R") (at 96.52 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9726f34c-4003-436f-acdf-0801f73fb079)
-    (property "Reference" "R14" (at 96.52 149.86 90)
+    (property "Reference" "R11" (at 96.52 149.86 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 96.52 152.4 90)
@@ -2763,7 +2763,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R14") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2797,7 +2797,7 @@
   (symbol (lib_id "power:GND") (at 149.86 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b16f275-ee91-4ce3-9737-1cdef9cb660c)
-    (property "Reference" "#PWR015" (at 149.86 177.8 0)
+    (property "Reference" "#PWR017" (at 149.86 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 176.53 0)
@@ -2813,7 +2813,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2822,7 +2822,7 @@
   (symbol (lib_id "Device:C") (at 29.21 166.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9db8254d-c3b7-4c37-b34d-82ed8adaff63)
-    (property "Reference" "C20" (at 29.21 158.75 90)
+    (property "Reference" "C1" (at 29.21 158.75 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 29.21 161.29 90)
@@ -2839,7 +2839,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C20") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2875,7 +2875,7 @@
   (symbol (lib_id "Device:R") (at 96.52 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2b6a95c-d35c-4823-85df-77ae64903b06)
-    (property "Reference" "R17" (at 96.52 154.94 90)
+    (property "Reference" "R12" (at 96.52 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 96.52 157.48 90)
@@ -2892,7 +2892,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R17") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2901,7 +2901,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 30.48 146.05 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2c24c86-e724-4bc5-854c-49bd3faa1275)
-    (property "Reference" "C22" (at 31.369 138.43 90)
+    (property "Reference" "C3" (at 31.369 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47uF" (at 31.369 140.97 90)
@@ -2918,7 +2918,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C22") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2927,7 +2927,7 @@
   (symbol (lib_id "power:GND") (at 83.82 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a593152b-7138-42ed-bdef-391d5f6b9950)
-    (property "Reference" "#PWR04" (at 83.82 54.61 0)
+    (property "Reference" "#PWR011" (at 83.82 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 53.34 0)
@@ -2943,7 +2943,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2952,7 +2952,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 144.78 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b04d8132-5fa4-4bef-9087-a6539b35d0ff)
-    (property "Reference" "C19" (at 145.669 105.41 90)
+    (property "Reference" "C21" (at 145.669 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 145.669 107.95 90)
@@ -2969,7 +2969,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C19") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -2978,7 +2978,7 @@
   (symbol (lib_id "Device:R") (at 109.22 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1ec0a0c-643b-43d7-8331-5c2f5ee0639c)
-    (property "Reference" "R7" (at 109.22 80.01 90)
+    (property "Reference" "R15" (at 109.22 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22K" (at 109.22 82.55 90)
@@ -2995,7 +2995,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R7") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3004,7 +3004,7 @@
   (symbol (lib_id "power:GND") (at 116.84 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c49b9013-ce9e-41c7-a933-ddaa262a56a9)
-    (property "Reference" "#PWR012" (at 116.84 166.37 0)
+    (property "Reference" "#PWR015" (at 116.84 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 165.1 0)
@@ -3020,7 +3020,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3055,7 +3055,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 19.05 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfe3bfdf-41bb-4f0f-820d-12268d98ec98)
-    (property "Reference" "J2" (at 19.685 83.82 0)
+    (property "Reference" "J1" (at 19.685 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "IN" (at 19.685 86.36 0)
@@ -3072,7 +3072,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3081,7 +3081,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 149.86 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4d84ef3-626d-4847-b1f1-9b71e5409c9c)
-    (property "Reference" "FDBK" (at 152.4 157.48 0)
+    (property "Reference" "FDBK2" (at 152.4 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "50K" (at 152.4 160.02 0)
@@ -3099,7 +3099,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "FDBK") (unit 1)
+          (reference "FDBK2") (unit 1)
         )
       )
     )
@@ -3108,7 +3108,7 @@
   (symbol (lib_id "Device:R") (at 41.91 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5bb63c9-bb9f-4480-8eee-b93c3dc2ce6a)
-    (property "Reference" "R20" (at 41.91 154.94 90)
+    (property "Reference" "R3" (at 41.91 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2K7" (at 41.91 157.48 90)
@@ -3125,7 +3125,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R20") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3134,7 +3134,7 @@
   (symbol (lib_id "power:GND") (at 165.1 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d957353f-6741-430d-b332-a25cb298ffc1)
-    (property "Reference" "#PWR016" (at 165.1 116.84 0)
+    (property "Reference" "#PWR019" (at 165.1 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 115.57 0)
@@ -3150,7 +3150,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3185,7 +3185,7 @@
   (symbol (lib_id "Device:C") (at 116.84 154.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2935640-f9d5-4093-8cf3-aa5b107a3ce6)
-    (property "Reference" "C13" (at 120.65 153.67 0)
+    (property "Reference" "C17" (at 120.65 153.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10nF" (at 120.65 156.21 0)
@@ -3202,7 +3202,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C13") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3211,7 +3211,7 @@
   (symbol (lib_id "power:GND") (at 102.87 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6e8db60-7638-4c58-a162-d852182b6fef)
-    (property "Reference" "#PWR03" (at 102.87 54.61 0)
+    (property "Reference" "#PWR013" (at 102.87 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 53.34 0)
@@ -3227,7 +3227,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3268,7 +3268,7 @@
   (symbol (lib_id "Device:C") (at 68.58 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea7fe558-2c34-4eba-a622-86d4ed3f01b4)
-    (property "Reference" "C5" (at 68.58 101.6 90)
+    (property "Reference" "C7" (at 68.58 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47pF" (at 68.58 104.14 90)
@@ -3285,7 +3285,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3300,7 +3300,7 @@
     (property "Value" "TL072" (at 76.2 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 77.47 39.37 0)
+    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 77.47 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 77.47 39.37 0)
@@ -3326,7 +3326,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 21.59 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid effb34fc-5aa1-4e3e-8488-f04b0661f79e)
-    (property "Reference" "J1" (at 21.59 25.4 0)
+    (property "Reference" "J2" (at 21.59 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "+9V" (at 21.59 27.94 0)
@@ -3344,7 +3344,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3353,7 +3353,7 @@
   (symbol (lib_id "power:GND") (at 104.14 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff040b1f-c7da-4791-b150-e2fd738d2570)
-    (property "Reference" "#PWR013" (at 104.14 181.61 0)
+    (property "Reference" "#PWR014" (at 104.14 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 180.34 0)
@@ -3369,7 +3369,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3378,7 +3378,7 @@
   (symbol (lib_id "Device:R") (at 86.36 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff739447-f8ad-4f52-864e-a5cf3d0381b1)
-    (property "Reference" "R11" (at 88.9 124.46 0)
+    (property "Reference" "R8" (at 88.9 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 88.9 127 0)
@@ -3395,7 +3395,7 @@
     (instances
       (project "PT2399_Delay"
         (path "/d9bc629e-b47e-4663-bd3d-821231908fd3"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
